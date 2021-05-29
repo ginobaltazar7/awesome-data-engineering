@@ -260,7 +260,8 @@ multi-processor, multi-core machines
 * [Sessions](https://github.com/ginobaltazar7/awesome-data-engineering/blob/master/tsql-scripts/Sessionmonitor.sql)    
 * [Blocking and Deadlock](https://github.com/ginobaltazar7/awesome-data-engineering/blob/master/tsql-scripts/Blockingmonitor.sql)    
 * [IO](https://github.com/ginobaltazar7/awesome-data-engineering/tsql-scripts/blob/master/IOmonitor.sql)    
-* [Wait Stat](https://github.com/ginobaltazar7/awesome-data-engineering/blob/master/tsql-scripts/Waitstatmonitor.sql)    
+* [Wait Stat](https://github.com/ginobaltazar7/awesome-data-engineering/blob/master/tsql-scripts/Waitstatmonitor.sql)   
+* [sp_whoisactive](https://github.com/ginobaltazar7/awesome-data-engineering/blob/master/tsql-scripts/sp_whoisactive.sql) and more here via [Adam Machanic](http://dataeducation.com/sp_whoisactive-for-azure-sql-database-attempt-2/)  
 
 # Community
 
