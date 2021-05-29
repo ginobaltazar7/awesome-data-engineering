@@ -253,7 +253,19 @@ multi-processor, multi-core machines
 * [Prometheus.io](https://github.com/prometheus/prometheus) An open-source service monitoring system and time series database
 * [HAProxy Exporter](https://github.com/prometheus/haproxy_exporter) Simple server that scrapes HAProxy stats and exports them via HTTP for Prometheus consumption
 
+## MSSQL Server
+* [CPU Usage](https://github.com/ginobaltazar7/awesome-data-engineering/tsql-scripts/CPUmonitor.sql)  
+* [Memory Usage](https://github.com/ginobaltazar7/awesome-data-engineering/tsql-scripts/Memorymonitor.sql)    
+* [Disk Usage](https://github.com/ginobaltazar7/awesome-data-engineering/tsql-scripts/Diskspacemonitor.sql)    
+* [Sessions](https://github.com/ginobaltazar7/awesome-data-engineering/tsql-scripts/Sessionmonitor.sql)    
+* [Blocking and Deadlock](https://github.com/ginobaltazar7/awesome-data-engineering/tsql-scripts/Blockingmonitor.sql)    
+* [IO](https://github.com/ginobaltazar7/awesome-data-engineering/tsql-scripts/IOmonitor.sql)    
+* [Wait Stat](https://github.com/ginobaltazar7/awesome-data-engineering/tsql-scripts/Waitstatmonitor.sql)    
+
 # Community
+
+## Triva
+* [mysql founder Monty's blog](http://monty-says.blogspot.com/2020/) 
 
 ## Forums
 * [/r/dataengineering](https://www.reddit.com/r/dataengineering/) News, tips and background on Data Engineering
