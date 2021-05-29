@@ -254,13 +254,13 @@ multi-processor, multi-core machines
 * [HAProxy Exporter](https://github.com/prometheus/haproxy_exporter) Simple server that scrapes HAProxy stats and exports them via HTTP for Prometheus consumption
 
 ## MSSQL Server
-* [CPU Usage](https://github.com/ginobaltazar7/awesome-data-engineering/tsql-scripts/CPUmonitor.sql)  
-* [Memory Usage](https://github.com/ginobaltazar7/awesome-data-engineering/tsql-scripts/Memorymonitor.sql)    
-* [Disk Usage](https://github.com/ginobaltazar7/awesome-data-engineering/tsql-scripts/Diskspacemonitor.sql)    
-* [Sessions](https://github.com/ginobaltazar7/awesome-data-engineering/tsql-scripts/Sessionmonitor.sql)    
-* [Blocking and Deadlock](https://github.com/ginobaltazar7/awesome-data-engineering/tsql-scripts/Blockingmonitor.sql)    
-* [IO](https://github.com/ginobaltazar7/awesome-data-engineering/tsql-scripts/IOmonitor.sql)    
-* [Wait Stat](https://github.com/ginobaltazar7/awesome-data-engineering/tsql-scripts/Waitstatmonitor.sql)    
+* [CPU Usage](https://github.com/ginobaltazar7/awesome-data-engineering/blob/master/tsql-scripts/CPUmonitor.sql)  
+* [Memory Usage](https://github.com/ginobaltazar7/awesome-data-engineering/blob/master/tsql-scripts/Memorymonitor.sql)    
+* [Disk Usage](https://github.com/ginobaltazar7/awesome-data-engineering/blob/master/tsql-scripts/Diskspacemonitor.sql)    
+* [Sessions](https://github.com/ginobaltazar7/awesome-data-engineering/blob/master/tsql-scripts/Sessionmonitor.sql)    
+* [Blocking and Deadlock](https://github.com/ginobaltazar7/awesome-data-engineering/blob/master/tsql-scripts/Blockingmonitor.sql)    
+* [IO](https://github.com/ginobaltazar7/awesome-data-engineering/tsql-scripts/blob/master/IOmonitor.sql)    
+* [Wait Stat](https://github.com/ginobaltazar7/awesome-data-engineering/blob/master/tsql-scripts/Waitstatmonitor.sql)    
 
 # Community
 
