@@ -90,6 +90,7 @@ List of content
 # Data Ingestion
 * [Kafka](https://kafka.apache.org/) Publish-subscribe messaging rethought as a distributed commit log.
 	* [BottledWater](https://github.com/confluentinc/bottledwater-pg) Change data capture from PostgreSQL into Kafka. Deprecated.
+	* [ConfluentKafka](https://docs.confluent.io/platform/current/clients/confluent-kafka-python/html/index.html) Confluent Python client. 
 	* [kafkat](https://github.com/airbnb/kafkat) Simplified command-line administration for Kafka brokers
 	* [kafkacat](https://github.com/edenhill/kafkacat) Generic command line non-JVM Apache Kafka producer and consumer
 	* [pg-kafka](https://github.com/xstevens/pg_kafka) A PostgreSQL extension to produce messages to Apache Kafka
@@ -97,6 +98,7 @@ List of content
 	* [kafka-docker](https://github.com/wurstmeister/kafka-docker) Kafka in Docker
 	* [kafka-manager](https://github.com/yahoo/kafka-manager) A tool for managing Apache Kafka
 	* [kafka-node](https://github.com/SOHU-Co/kafka-node) Node.js client for Apache Kafka 0.8
+	* [kafka-python](https://github.com/dpkp/kafka-python) Kafka Python client
 	* [Secor](https://github.com/pinterest/secor) Pinterest's Kafka to S3 distributed consumer
 	* [Kafka-logger](https://github.com/uber/kafka-logger) Kafka-winston logger for nodejs from uber
 * [AWS Kinesis](https://aws.amazon.com/kinesis/) A fully managed, cloud-based service for real-time data processing over large, distributed data streams.
@@ -128,6 +130,7 @@ List of content
 
 # Serialization format
 * [Apache Avro](https://avro.apache.org) Apache Avro™ is a data serialization system
+* [Apache Arrow] (https://arrow.apache.org/) Apache Arrow is columnar memory format for flat and hierarchical data.
 * [Apache Parquet](https://parquet.apache.org) Apache Parquet is a columnar storage format available to any project in the Hadoop ecosystem, regardless of the choice of data processing framework, data model or programming language.
 	* [Snappy](https://github.com/google/snappy) A fast compressor/decompressor. Used with Parquet
 	* [PigZ](https://zlib.net/pigz/) A parallel implementation of gzip for modern
@@ -180,7 +183,7 @@ multi-processor, multi-core machines
 		* [PyHive](https://github.com/dropbox/PyHive) Python interface to Hive and Presto.
 	* [Drill](https://drill.apache.org/) Schema-free SQL Query Engine for Hadoop, NoSQL and Cloud Storage.
 
-# Charts and Dashboards
+# Data Viz, Charts and Dashboards
 * [Highcharts](https://www.highcharts.com/) A charting library written in pure JavaScript, offering an easy way of adding interactive charts to your web site or web application.
 * [ZingChart](https://www.zingchart.com/) Fast JavaScript charts for any data set.
 * [C3.js](https://c3js.org) D3-based reusable chart library.
@@ -193,6 +196,7 @@ multi-processor, multi-core machines
 * [Redash](https://redash.io/) Make Your Company Data Driven. Connect to any data source, easily visualize and share your data.
 * [Metabase](https://github.com/metabase/metabase) Metabase is the easy, open source way for everyone in your company to ask questions and learn from data.
 * [PyQtGraph](http://www.pyqtgraph.org/) PyQtGraph is a pure-python graphics and GUI library built on PyQt4 / PySide and numpy. It is intended for use in mathematics / scientific / engineering applications.
+* [Grafana](https://github.com/grafana/grafana) Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored.
 
 
 # Workflow
@@ -259,9 +263,12 @@ multi-processor, multi-core machines
 ## Podcasts
 * [Data Engineering Podcast](https://www.dataengineeringpodcast.com/) The show about modern data infrastructure.
 
-Cheers to [The Data Engineering Ecosystem: An Interactive Map](http://xyz.insightdataengineering.com/blog/pipeline_map.html)
+Cheers to [The Data Engineering Ecosystem: An Interactive Map](https://blog.insightdatascience.com/the-data-engineering-ecosystem-an-interactive-map-b682627c2534)
 
 Inspired by the [awesome](https://github.com/sindresorhus/awesome) list. Created by [Insight Data Engineering](https://insightdataengineering.com) fellows.
+
+## Credits
+Thanks to [Igor Barinov](https://github.com/igorbarinov/). 
 
 ## License
 
