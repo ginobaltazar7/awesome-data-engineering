@@ -11,7 +11,7 @@ List of content
 4. [Serialization format](#serialization-format)
 5. [Stream Processing](#stream-processing)
 6. [Batch Processing](#batch-processing)
-7. [DataViz, Charts and Dashboards](#charts-and-dashboards)
+7. [DataViz Charts and Dashboards](#dataviz-charts-and-dashboards)
 8. [Workflow](#workflow)
 9. [Data Lake Management](#data-lake-management)
 9. [ELK Elastic Logstash Kibana](#elk-elastic-logstash-kibana)
@@ -183,7 +183,7 @@ multi-processor, multi-core machines
 		* [PyHive](https://github.com/dropbox/PyHive) Python interface to Hive and Presto.
 	* [Drill](https://drill.apache.org/) Schema-free SQL Query Engine for Hadoop, NoSQL and Cloud Storage.
 
-# Data Viz, Charts and Dashboards
+# DataViz Charts and Dashboards
 * [Highcharts](https://www.highcharts.com/) A charting library written in pure JavaScript, offering an easy way of adding interactive charts to your web site or web application.
 * [ThoughtSpot](https://github.com/thoughtspot/ts_rest_api_and_tml_tools) Business intelligence analytics search, alternative to Tableau
 * [ZingChart](https://www.zingchart.com/) Fast JavaScript charts for any data set.
