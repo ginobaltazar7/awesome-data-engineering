@@ -160,8 +160,8 @@ multi-processor, multi-core machines
 
 # Batch Processing
 * [Hadoop MapReduce](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) Hadoop MapReduce is a software framework for easily writing applications which process vast amounts of data (multi-terabyte data-sets) in-parallel on large clusters (thousands of nodes) of commodity hardware in a reliable, fault-tolerant manner
-	*[MapReduce with Python](https://medium.com/geekculture/mapreduce-with-python-5d12a772d5b3) 
-* [Spark](https://spark.apache.org/) Using the [MRJob](https://mrjob.readthedocs.io/en/latest/guides/quickstart.html) python libary  
+	* [MapReduce with Python](https://medium.com/geekculture/mapreduce-with-python-5d12a772d5b3) Using the [MRJob](https://mrjob.readthedocs.io/en/latest/guides/quickstart.html) python libary  
+* [Spark](https://spark.apache.org/)  
 	* [Spark Packages](https://spark-packages.org) A community index of packages for Apache Spark
 	* [Deep Spark](https://github.com/Stratio/deep-spark) Connecting Apache Spark with different data stores. Deprecated.
 	* [Spark RDD API Examples](http://homepage.cs.latrobe.edu.au/zhe/ZhenHeSparkRDDAPIExamples.html) by Zhen He
