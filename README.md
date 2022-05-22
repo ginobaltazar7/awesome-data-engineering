@@ -258,6 +258,7 @@ multi-processor, multi-core machines
 ## Forums
 * [/r/dataengineering](https://www.reddit.com/r/dataengineering/) News, tips and background on Data Engineering
 * [/r/etl](https://www.reddit.com/r/ETL/) Subreddit focused on ETL
+* [/r/sql](https://www.reddit.com/r/SQL/) Subreddit focused on SQL
 
 ## Conferences
 * [Data Council](https://www.datacouncil.ai/about) Data Council is the first technical conference that bridges the gap between data scientists, data engineers and data analysts.
