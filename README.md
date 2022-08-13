@@ -265,8 +265,12 @@ multi-processor, multi-core machines
 
 # Community
 
-## Triva
+## Trivia
 * [mysql founder Monty's blog](http://monty-says.blogspot.com/2020/) 
+
+## Newsletters & Curated Reads
+* [Ananth Packkildurai's Data Engineering Weeklies](https://substack.com/profile/3520227-ananth-packkildurai)
+* [Amplify Partner's Building Data Driven Orgs](https://amplifypartners.com/moderndatateamshub/)
 
 ## Forums
 * [/r/dataengineering](https://www.reddit.com/r/dataengineering/) News, tips and background on Data Engineering
