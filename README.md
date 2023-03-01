@@ -186,9 +186,9 @@ multi-processor, multi-core machines
 	* [Drill](https://drill.apache.org/) Schema-free SQL Query Engine for Hadoop, NoSQL and Cloud Storage.
 
 # Databricks
-* [Databricks](https://github.com/databricks)
-	* [Databricks Notebook Gallery](https://www.databricks.com/discover/notebook-gallery)
-	* [Awesome Databricks Reisdebora](https://github.com/reisdebora/awesome-databricks)
+* [Databricks](https://github.com/databricks) Big data processing platform founded by the creators of Apache Spark.
+	* [Databricks Notebook Gallery](https://www.databricks.com/discover/notebook-gallery) Sample gallery of databricks notebooks.
+	* [Awesome Databricks Reisdebora](https://github.com/reisdebora/awesome-databricks) Short list of resources around Databricks, including links to learning.
 
 # DataViz Charts and Dashboards
 * [Highcharts](https://www.highcharts.com/) A charting library written in pure JavaScript, offering an easy way of adding interactive charts to your web site or web application.
