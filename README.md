@@ -9,16 +9,17 @@ List of content
 2. [Ingestion](#data-ingestion)
 3. [File System](#file-system)
 4. [Serialization format](#serialization-format)
-5. [Stream Processing](#stream-processing)
-6. [Batch Processing](#batch-processing)
-7. [DataViz Charts and Dashboards](#dataviz-charts-and-dashboards)
-8. [Workflow](#workflow)
-9. [Data Lake Management](#data-lake-management)
-9. [ELK Elastic Logstash Kibana](#elk-elastic-logstash-kibana)
-10. [Docker](#docker)
-11. [Datasets](#datasets)
-12. [Monitoring](#monitoring)
-13. [Community](#community)
+5. [Streaming](#streaming)
+6. [Processing](#processing) 
+7. [Databricks](#databricks)
+8. [DataViz Charts and Dashboards](#dataviz-charts-and-dashboards)
+9. [Workflow](#workflow)
+10. [Data Lake Management](#data-lake-management)
+11. [ELK Elastic Logstash Kibana](#elk-elastic-logstash-kibana)
+12. [Docker](#docker)
+13. [Datasets](#datasets)
+14. [Monitoring](#monitoring)
+15. [Community](#community)
 
 # Databases
 - Relational
@@ -111,7 +112,7 @@ List of content
 * [Nakadi](https://nakadi.io) Nakadi is an open source event messaging platform that provides a REST API on top of Kafka-like queues.
 * [Pravega](http://www.pravega.io) Pravega provides a new storage abstraction - a stream - for continuous and unbounded data.
 * [Apache Pulsar](https://pulsar.apache.org/) Apache Pulsar is an open-source distributed pub-sub messaging system.
-* [AWS Data Wranlger](https://github.com/awslabs/aws-data-wrangler) Utility belt to handle data on AWS.
+* [AWS Data Wrangler](https://github.com/awslabs/aws-data-wrangler) Utility belt to handle data on AWS.
 
 # File System
 * [HDFS](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html)
@@ -142,7 +143,7 @@ multi-processor, multi-core machines
 * [Kryo](https://github.com/EsotericSoftware/kryo) Kryo is a fast and efficient object graph serialization framework for Java
 
 
-# Stream Processing
+# Streaming
 * [Apache Beam](https://beam.apache.org/) Apache Beam is a unified programming model that implements both batch and streaming data processing jobs that run on many execution engines.
 * [Spark Streaming](https://spark.apache.org/streaming/) Spark Streaming makes it easy to build scalable fault-tolerant streaming applications.
 * [Apache Flink](https://flink.apache.org/) Apache Flink is a streaming dataflow engine that provides data distribution, communication, and fault tolerance for distributed computations over data streams.
@@ -158,7 +159,7 @@ multi-processor, multi-core machines
 * [HStreamDB](https://github.com/hstreamdb/hstream) The streaming database built for IoT data storage and real-time processing.
 * [Kuiper](https://github.com/emqx/kuiper) An edge lightweight IoT data analytics/streaming software implemented by Golang, and it can be run at all kinds of resource-constrained edge devices.
 
-# Batch Processing
+# Processing
 * [Hadoop MapReduce](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) Hadoop MapReduce is a software framework for easily writing applications which process vast amounts of data (multi-terabyte data-sets) in-parallel on large clusters (thousands of nodes) of commodity hardware in a reliable, fault-tolerant manner
 	* [MapReduce with Python](https://medium.com/geekculture/mapreduce-with-python-5d12a772d5b3) Using the [MRJob](https://mrjob.readthedocs.io/en/latest/guides/quickstart.html) python libary  
 * [Spark](https://spark.apache.org/)  
@@ -183,6 +184,11 @@ multi-processor, multi-core machines
 		* [Hivemall](https://github.com/apache/incubator-hivemall) Scalable machine learning library for Hive/Hadoop.
 		* [PyHive](https://github.com/dropbox/PyHive) Python interface to Hive and Presto.
 	* [Drill](https://drill.apache.org/) Schema-free SQL Query Engine for Hadoop, NoSQL and Cloud Storage.
+
+# Databricks
+* [Databricks](https://github.com/databricks)
+	* [Databricks Notebook Gallery](https://www.databricks.com/discover/notebook-gallery)
+	* [Awesome Databricks Reisdebora](https://github.com/reisdebora/awesome-databricks)
 
 # DataViz Charts and Dashboards
 * [Highcharts](https://www.highcharts.com/) A charting library written in pure JavaScript, offering an easy way of adding interactive charts to your web site or web application.
@@ -214,7 +220,7 @@ multi-processor, multi-core machines
 * [Census](https://getcensus.com/) is a reverse-ETL  tool that let you sync data from your cloud data warehouse to SaaS applications like Salesforce, Marketo, HubSpot, Zendesk, etc. No engineering favors required—just SQL.
 * [dbt](https://getdbt.com/) is a command line tool that enables data analysts and engineers to transform data in their warehouses more effectively.
 
-# Data Lake Management
+# Lake Management
 * [lakeFS](https://github.com/treeverse/lakeFS) lakeFS is an open source platform that delivers resilience and manageability to object-storage based data lakes.
 
 # ELK Elastic Logstash Kibana
