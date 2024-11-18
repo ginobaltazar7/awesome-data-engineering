@@ -417,10 +417,20 @@ multi-processor, multi-core machines
 
 # Community
 
-### Forums
+## Newsletters & Curated Reads
+* [Ananth Packkildurai's Data Engineering Weeklies](https://substack.com/profile/3520227-ananth-packkildurai)
+* [Amplify Partner's Building Data Driven Orgs](https://amplifypartners.com/moderndatateamshub/)
+* [Joe Reis Substack](https://joereis.substack.com/)
+* [Zach Wilson's Data Engineer Newsletter](https://blog.dataengineer.io/)
+* [Zach Wilson's Data Engineer Handbook & Comprehensive DE Resources](https://github.com/DataExpert-io/data-engineer-handbook/)
+* [Zach Wilson's Data Engineer Bootcamp](https://bootcamp.techcreator.io/)
 
-- [/r/dataengineering](https://www.reddit.com/r/dataengineering/) - News, tips, and background on Data Engineering.
+### Reddit Forums
+
+- [/r/dataengineering](https://www.reddit.com/r/dataengineering/) - Subreddit news, tips, and background on Data Engineering.
 - [/r/etl](https://www.reddit.com/r/ETL/) - Subreddit focused on ETL.
+* [/r/sql](https://www.reddit.com/r/SQL/) Subreddit focused on SQL
+* [/r/apachekafka](https://www.reddit.com/r/apachekafka/) Subreddit focused on Apache Kafka
 
 ### Conferences
 
@@ -432,17 +442,7 @@ multi-processor, multi-core machines
 - [The Data Stack Show](https://datastackshow.com/) - A show where they talk to data engineers, analysts, and data scientists about their experience around building and maintaining data infrastructure, delivering data and data products, and driving better outcomes across their businesses with data.
 
 ## Trivia
-* [mysql founder Monty's blog](http://monty-says.blogspot.com/2020/) 
-
-## Newsletters & Curated Reads
-* [Ananth Packkildurai's Data Engineering Weeklies](https://substack.com/profile/3520227-ananth-packkildurai)
-* [Amplify Partner's Building Data Driven Orgs](https://amplifypartners.com/moderndatateamshub/)
-
-## Forums
-* [/r/dataengineering](https://www.reddit.com/r/dataengineering/) News, tips and background on Data Engineering
-* [/r/etl](https://www.reddit.com/r/ETL/) Subreddit focused on ETL
-* [/r/sql](https://www.reddit.com/r/SQL/) Subreddit focused on SQL
-* [/r/apachekafka](https://www.reddit.com/r/apachekafka/) Subreddit focused on Apache Kafka
+* [MySql founder Monty's blog](http://monty-says.blogspot.com/2020/) 
 
 ## Conferences
 * [Data Council](https://www.datacouncil.ai/about) Data Council is the first technical conference that bridges the gap between data scientists, data engineers and data analysts.
