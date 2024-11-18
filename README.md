@@ -394,21 +394,28 @@ multi-processor, multi-core machines
 - [Prometheus.io](https://github.com/prometheus/prometheus) - An open-source service monitoring system and time series database.
 - [HAProxy Exporter](https://github.com/prometheus/haproxy_exporter) - Simple server that scrapes HAProxy stats and exports them via HTTP for Prometheus consumption.
 
-## Profiling
+### MSSQL Server Monitoring Scripts
+* [CPU Usage](https://github.com/ginobaltazar7/awesome-data-engineering/blob/master/tsql-scripts/CPUmonitor.sql)  
+* [Memory Usage](https://github.com/ginobaltazar7/awesome-data-engineering/blob/master/tsql-scripts/Memorymonitor.sql)    
+* [Disk Usage](https://github.com/ginobaltazar7/awesome-data-engineering/blob/master/tsql-scripts/Diskspacemonitor.sql)    
+* [Sessions](https://github.com/ginobaltazar7/awesome-data-engineering/blob/master/tsql-scripts/Sessionmonitor.sql)    
+* [Blocking and Deadlock](https://github.com/ginobaltazar7/awesome-data-engineering/blob/master/tsql-scripts/Blockingmonitor.sql)    
+* [IO](https://github.com/ginobaltazar7/awesome-data-engineering/tsql-scripts/blob/master/IOmonitor.sql)    
+* [Wait Stat](https://github.com/ginobaltazar7/awesome-data-engineering/blob/master/tsql-scripts/Waitstatmonitor.sql)   
+* [sp_whoisactive](https://github.com/ginobaltazar7/awesome-data-engineering/blob/master/tsql-scripts/sp_whoisactive.sql) and more here via [Adam Machanic](http://dataeducation.com/sp_whoisactive-for-azure-sql-database-attempt-2/)  
+
 
 ### Data Profiler
 - [Data Profiler](https://github.com/capitalone/dataprofiler) - The DataProfiler is a Python library designed to make data analysis, monitoring, and sensitive data detection easy.
 
 
-## Testing
-
-# Lake Management
+### Lake Management
 * [lakeFS](https://github.com/treeverse/lakeFS) lakeFS is an open source platform that delivers resilience and manageability to object-storage based data lakes.
 - [Grai](https://github.com/grai-io/grai-core/) - A data catalog tool that integrates into your CI system exposing downstream impact testing of data changes. These tests prevent data changes which might break data pipelines or BI dashboards from making it to production.
 - [DQOps](https://github.com/dqops/dqo) - An open-source data quality platform for the whole data platform lifecycle from profiling new data sources to applying full automation of data quality monitoring.
 - [DataKitchen](https://datakitchen.io/) -  Open Source Data Observability for end-to-end Data Journey Observability, data profiling, anomaly detection, and auto-created data quality validation tests.
 
-## Community
+# Community
 
 ### Forums
 
@@ -423,18 +430,6 @@ multi-processor, multi-core machines
 
 - [Data Engineering Podcast](https://www.dataengineeringpodcast.com/) - The show about modern data infrastructure.
 - [The Data Stack Show](https://datastackshow.com/) - A show where they talk to data engineers, analysts, and data scientists about their experience around building and maintaining data infrastructure, delivering data and data products, and driving better outcomes across their businesses with data.
-
-## MSSQL Server
-* [CPU Usage](https://github.com/ginobaltazar7/awesome-data-engineering/blob/master/tsql-scripts/CPUmonitor.sql)  
-* [Memory Usage](https://github.com/ginobaltazar7/awesome-data-engineering/blob/master/tsql-scripts/Memorymonitor.sql)    
-* [Disk Usage](https://github.com/ginobaltazar7/awesome-data-engineering/blob/master/tsql-scripts/Diskspacemonitor.sql)    
-* [Sessions](https://github.com/ginobaltazar7/awesome-data-engineering/blob/master/tsql-scripts/Sessionmonitor.sql)    
-* [Blocking and Deadlock](https://github.com/ginobaltazar7/awesome-data-engineering/blob/master/tsql-scripts/Blockingmonitor.sql)    
-* [IO](https://github.com/ginobaltazar7/awesome-data-engineering/tsql-scripts/blob/master/IOmonitor.sql)    
-* [Wait Stat](https://github.com/ginobaltazar7/awesome-data-engineering/blob/master/tsql-scripts/Waitstatmonitor.sql)   
-* [sp_whoisactive](https://github.com/ginobaltazar7/awesome-data-engineering/blob/master/tsql-scripts/sp_whoisactive.sql) and more here via [Adam Machanic](http://dataeducation.com/sp_whoisactive-for-azure-sql-database-attempt-2/)  
-
-# Community
 
 ## Trivia
 * [mysql founder Monty's blog](http://monty-says.blogspot.com/2020/) 
@@ -452,8 +447,6 @@ multi-processor, multi-core machines
 ## Conferences
 * [Data Council](https://www.datacouncil.ai/about) Data Council is the first technical conference that bridges the gap between data scientists, data engineers and data analysts.
 
-## Podcasts
-* [Data Engineering Podcast](https://www.dataengineeringpodcast.com/) The show about modern data infrastructure.
 
 Cheers to [The Data Engineering Ecosystem: An Interactive Map](https://blog.insightdatascience.com/the-data-engineering-ecosystem-an-interactive-map-b682627c2534)
 
