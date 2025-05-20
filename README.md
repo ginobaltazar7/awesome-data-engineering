@@ -4,21 +4,6 @@
 
 ## Contents
 
-1. [Databases](#databases)
-2. [Ingestion](#data-ingestion)
-3. [File System](#file-system)
-4. [Serialization format](#serialization-format)
-5. [Streaming](#streaming)
-6. [Processing](#processing) 
-7. [Databricks](#databricks)
-8. [DataViz Charts and Dashboards](#dataviz-charts-and-dashboards)
-9. [Workflow](#workflow)
-10. [Data Lake Management](#data-lake-management)
-11. [ELK Elastic Logstash Kibana](#elk-elastic-logstash-kibana)
-12. [Docker](#docker)
-13. [Datasets](#datasets)
-14. [Monitoring](#monitoring)
-15. [Community](#community)
 - [Databases](#databases)
 - [Data Comparison](#data-comparison)
 - [Data Ingestion](#data-ingestion)
@@ -43,8 +28,9 @@
   - [Forums](#forums)
   - [Conferences](#conferences)
   - [Podcasts](#podcasts)
+  - [Books] (#books)
 
-## Databases
+# Databases
 
 - Relational
   - [RQLite](https://github.com/rqlite/rqlite) - Replicated SQLite using the Raft consensus protocol.
@@ -114,6 +100,7 @@
   - [DuckDB](https://duckdb.org/) - DuckDB is a fast in-process analytical database that has zero external dependencies, runs on Linux/macOS/Windows, offers a rich SQL dialect, and is free and extensible.
 
 # Data Ingestion
+
 * [Kafka](https://kafka.apache.org/) Publish-subscribe messaging rethought as a distributed commit log.
 	* [BottledWater](https://github.com/confluentinc/bottledwater-pg) Change data capture from PostgreSQL into Kafka. Deprecated.
 	* [ConfluentKafka](https://docs.confluent.io/platform/current/clients/confluent-kafka-python/html/index.html) Confluent Python client. 
@@ -138,11 +125,13 @@
 * [Pravega](http://www.pravega.io) Pravega provides a new storage abstraction - a stream - for continuous and unbounded data.
 * [Apache Pulsar](https://pulsar.apache.org/) Apache Pulsar is an open-source distributed pub-sub messaging system.
 * [AWS Data Wrangler](https://github.com/awslabs/aws-data-wrangler) Utility belt to handle data on AWS.
-## Data Comparison
+
+# Data Comparison
 
 - [datacompy](https://github.com/capitalone/datacompy) - DataComPy is a Python library that facilitates the comparison of two DataFrames in pandas, Polars, Spark and more. The library goes beyond basic equality checks by providing detailed insights into discrepancies at both row and column levels.
 
 # Serialization format
+
 * [Apache Avro](https://avro.apache.org) Apache Avro™ is a data serialization system
 * [Apache Arrow](https://arrow.apache.org/) Apache Arrow is columnar memory format for flat and hierarchical data.
 * [Apache Parquet](https://parquet.apache.org) Apache Parquet is a columnar storage format available to any project in the Hadoop ecosystem, regardless of the choice of data processing framework, data model or programming language.
@@ -154,7 +143,8 @@ multi-processor, multi-core machines
 * [ProtoBuf](https://github.com/protocolbuffers/protobuf) Protocol Buffers - Google's data interchange format
 * [SequenceFile](https://wiki.apache.org/hadoop/SequenceFile) SequenceFile is a flat file consisting of binary key/value pairs. It is extensively used in MapReduce as input/output formats
 * [Kryo](https://github.com/EsotericSoftware/kryo) Kryo is a fast and efficient object graph serialization framework for Java
-## Data Ingestion
+
+# Data Ingestion
 
 - [Kafka](https://kafka.apache.org/) - Publish-subscribe messaging rethought as a distributed commit log.
   - [BottledWater](https://github.com/confluentinc/bottledwater-pg) - Change data capture from PostgreSQL into Kafka. Deprecated.
@@ -185,8 +175,10 @@ multi-processor, multi-core machines
 - [Meltano](https://meltano.com/) - CLI & code-first ELT.
   - [Singer SDK](https://sdk.meltano.com) - The fastest way to build custom data extractors and loaders compliant with the Singer Spec.
 - [Google Sheets ETL](https://github.com/fulldecent/google-sheets-etl) - Live import all your Google Sheets to your data warehouse.
+- [CsvPath Framework](https://www.csvpath.org/) - A delimited data preboarding framework that fills the gap between MFT and the data lake.
 
 # Streaming
+
 * [Apache Beam](https://beam.apache.org/) Apache Beam is a unified programming model that implements both batch and streaming data processing jobs that run on many execution engines.
 * [Spark Streaming](https://spark.apache.org/streaming/) Spark Streaming makes it easy to build scalable fault-tolerant streaming applications.
 * [Apache Flink](https://flink.apache.org/) Apache Flink is a streaming dataflow engine that provides data distribution, communication, and fault tolerance for distributed computations over data streams.
@@ -213,7 +205,12 @@ multi-processor, multi-core machines
 * [AWS EMR](https://aws.amazon.com/emr/) A web service that makes it easy to quickly and cost-effectively process vast amounts of data.
 * [Tez](https://tez.apache.org/) An application framework which allows for a complex directed-acyclic-graph of tasks for processing data.
 * [Bistro](https://github.com/asavinov/bistro) is a light-weight engine for general-purpose data processing including both batch and stream analytics. It is based on a novel unique data model, which represents data via *functions* and processes data via *columns operations* as opposed to having only set operations in conventional approaches like MapReduce or SQL.
-## File System
+[Substation](https://github.com/brexhq/substation) - Substation is a cloud native data pipeline and transformation toolkit written in Go.
+- Batch ML
+  - [H2O](https://www.h2o.ai/) - Fast scalable machine learning API for smarter applications.
+  - [Mahout](https://mahout.apache.org/) - An environment for quickly creating scalable performant machine learning applications.
+
+# File System
 
 - [HDFS](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html) - A distributed file system designed to run on commodity hardware.
   - [Snakebite](https://github.com/spotify/snakebite) - A pure python HDFS client.
@@ -230,7 +227,7 @@ multi-processor, multi-core machines
 - [S3QL](https://github.com/s3ql/s3ql/) - S3QL is a file system that stores all its data online using storage services like Google Storage, Amazon S3, or OpenStack.
 - [LizardFS](https://lizardfs.com/) - LizardFS Software Defined Storage is a distributed, parallel, scalable, fault-tolerant, Geo-Redundant and highly available file system.
 
-## Serialization format
+# Serialization format
 
 - [Apache Avro](https://avro.apache.org) - Apache Avro™ is a data serialization system.
 - [Apache Parquet](https://parquet.apache.org) - Apache Parquet is a columnar storage format available to any project in the Hadoop ecosystem, regardless of the choice of data processing framework, data model or programming language.
@@ -242,7 +239,7 @@ multi-processor, multi-core machines
 - [SequenceFile](https://wiki.apache.org/hadoop/SequenceFile) - SequenceFile is a flat file consisting of binary key/value pairs. It is extensively used in MapReduce as input/output formats.
 - [Kryo](https://github.com/EsotericSoftware/kryo) - Kryo is a fast and efficient object graph serialization framework for Java.
 
-## Stream Processing
+# Stream Processing
 
 - [Apache Beam](https://beam.apache.org/) - Apache Beam is a unified programming model that implements both batch and streaming data processing jobs that run on many execution engines.
 - [Spark Streaming](https://spark.apache.org/streaming/) - Spark Streaming makes it easy to build scalable fault-tolerant streaming applications.
@@ -261,7 +258,7 @@ multi-processor, multi-core machines
 - [Zilla](https://github.com/aklivity/zilla) - - An API gateway built for event-driven architectures and streaming that supports standard protocols such as HTTP, SSE, gRPC, MQTT, and the native Kafka protocol.
 - [SwimOS](https://github.com/swimos/swim-rust) - A framework for building real-time streaming data processing applications that supports a wide range of ingestion sources.
 
-## Batch Processing
+# Batch Processing
 
 - [Hadoop MapReduce](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) - Hadoop MapReduce is a software framework for easily writing applications which process vast amounts of data (multi-terabyte data-sets) - in-parallel on large clusters (thousands of nodes) - of commodity hardware in a reliable, fault-tolerant manner.
 - [Spark](https://spark.apache.org/) - A multi-language engine for executing data engineering, data science, and machine learning on single-node machines or clusters.
@@ -290,11 +287,13 @@ multi-processor, multi-core machines
   - [Drill](https://drill.apache.org/) - Schema-free SQL Query Engine for Hadoop, NoSQL and Cloud Storage.
 
 # Databricks
+
 * [Databricks](https://github.com/databricks) Big data processing platform founded by the creators of Apache Spark.
 	* [Databricks Notebook Gallery](https://www.databricks.com/discover/notebook-gallery) Sample gallery of databricks notebooks.
 	* [Awesome Databricks Reisdebora](https://github.com/reisdebora/awesome-databricks) Short list of resources around Databricks, including links to learning.
 
 # DataViz Charts and Dashboards
+
 * [Highcharts](https://www.highcharts.com/) A charting library written in pure JavaScript, offering an easy way of adding interactive charts to your web site or web application.
 * [ThoughtSpot](https://github.com/thoughtspot/ts_rest_api_and_tml_tools) Business intelligence analytics search, alternative to Tableau
 * [ZingChart](https://www.zingchart.com/) Fast JavaScript charts for any data set.
@@ -308,23 +307,10 @@ multi-processor, multi-core machines
 * [Redash](https://redash.io/) Make Your Company Data Driven. Connect to any data source, easily visualize and share your data.
 * [Metabase](https://github.com/metabase/metabase) Metabase is the easy, open source way for everyone in your company to ask questions and learn from data.
 * [PyQtGraph](http://www.pyqtgraph.org/) PyQtGraph is a pure-python graphics and GUI library built on PyQt4 / PySide and numpy. It is intended for use in mathematics / scientific / engineering applications.
+- [Seaborn](https://seaborn.pydata.org) - A Python visualization library based on matplotlib. It provides a high-level interface for drawing attractive statistical graphics.
 * [Grafana](https://github.com/grafana/grafana) Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored.
-## Charts and Dashboards
 
-- [Highcharts](https://www.highcharts.com/) - A charting library written in pure JavaScript, offering an easy way of adding interactive charts to your web site or web application.
-- [ZingChart](https://www.zingchart.com/) - Fast JavaScript charts for any data set.
-- [C3.js](https://c3js.org) - D3-based reusable chart library.
-- [D3.js](https://d3js.org/) - A JavaScript library for manipulating documents based on data.
-  - [D3Plus](https://d3plus.org) - D3's simpler, easier to use cousin. Mostly predefined templates that you can just plug data in.
-- [SmoothieCharts](https://smoothiecharts.org) - A JavaScript Charting Library for Streaming Data.
-- [PyXley](https://github.com/stitchfix/pyxley) - Python helpers for building dashboards using Flask and React.
-- [Plotly](https://github.com/plotly/dash) - Flask, JS, and CSS boilerplate for interactive, web-based visualization apps in Python.
-- [Apache Superset](https://github.com/apache/incubator-superset) - Apache Superset (incubating) - A modern, enterprise-ready business intelligence web application.
-- [Redash](https://redash.io/) - Make Your Company Data Driven. Connect to any data source, easily visualize and share your data.
-- [Metabase](https://github.com/metabase/metabase) - Metabase is the easy, open source way for everyone in your company to ask questions and learn from data.
-- [PyQtGraph](https://www.pyqtgraph.org/) - PyQtGraph is a pure-python graphics and GUI library built on PyQt4 / PySide and numpy. It is intended for use in mathematics / scientific / engineering applications.
-
-## Workflow
+# Workflow
 
 - [Luigi](https://github.com/spotify/luigi) - Luigi is a Python module that helps you build complex pipelines of batch jobs.
 - [CronQ](https://github.com/seatgeek/cronq) - An application cron-like system. [Used](https://chairnerd.seatgeek.com/building-out-the-seatgeek-data-pipeline/) w/Luige. Deprecated.
@@ -348,18 +334,19 @@ multi-processor, multi-core machines
 - [Kestra](https://github.com/kestra-io/kestra) - A versatile open source orchestrator and scheduler built on Java, designed to handle a broad range of workflows with a language-agnostic, API-first architecture.
 - [Mage](https://www.mage.ai) - Open-source data pipeline tool for transforming and integrating data.
 
-## Data Lake Management
+# Data Lake Management
 
 - [lakeFS](https://github.com/treeverse/lakeFS) - lakeFS is an open source platform that delivers resilience and manageability to object-storage based data lakes.
 - [Project Nessie](https://github.com/projectnessie/nessie) - Project Nessie is a Transactional Catalog for Data Lakes with Git-like semantics. Works with Apache Iceberg tables.
+- [Ilum](https://ilum.cloud/) - Ilum is a modular Data Lakehouse platform that simplifies the management and monitoring of Apache Spark clusters across Kubernetes and Hadoop environments.
 
-## ELK Elastic Logstash Kibana
+# ELK Elastic Logstash Kibana
 
 - [docker-logstash](https://github.com/pblittle/docker-logstash) - A highly configurable Logstash (1.4.4) - Docker image running Elasticsearch (1.7.0) - and Kibana (3.1.2).
 - [elasticsearch-jdbc](https://github.com/jprante/elasticsearch-jdbc) - JDBC importer for Elasticsearch.
 - [ZomboDB](https://github.com/zombodb/zombodb) - Postgres Extension that allows creating an index backed by Elasticsearch.
 
-## Docker
+# Docker
 
 - [Gockerize](https://github.com/redbooth/gockerize) - Package golang service into minimal Docker containers.
 - [Flocker](https://github.com/ClusterHQ/flocker) - Easily manage Docker containers & their data.
@@ -373,7 +360,7 @@ multi-processor, multi-core machines
 - [Nomad](https://github.com/hashicorp/nomad) - Nomad is a cluster manager, designed for both long-lived services and short-lived batch processing workloads.
 - [ImageLayers](https://imagelayers.io/) - Visualize Docker images and the layers that compose them.
 
-## Datasets
+# Datasets
 
 ### Realtime
 
@@ -387,7 +374,7 @@ multi-processor, multi-core machines
 - [Common Crawl](https://commoncrawl.org/) - Open source repository of web crawl data.
 - [Wikipedia](https://dumps.wikimedia.org/enwiki/latest/) - Wikipedia's complete copy of all wikis, in the form of Wikitext source and metadata embedded in XML. A number of raw database tables in SQL form are also available.
 
-## Monitoring
+# Monitoring
 
 ### Prometheus
 
@@ -417,7 +404,8 @@ multi-processor, multi-core machines
 
 # Community
 
-## Newsletters & Curated Reads
+### Newsletters & Curated Reads
+
 * [Ananth Packkildurai's Data Engineering Weeklies](https://substack.com/profile/3520227-ananth-packkildurai)
 * [Amplify Partner's Building Data Driven Orgs](https://amplifypartners.com/moderndatateamshub/)
 * [Joe Reis Substack](https://joereis.substack.com/)
@@ -441,10 +429,15 @@ multi-processor, multi-core machines
 - [Data Engineering Podcast](https://www.dataengineeringpodcast.com/) - The show about modern data infrastructure.
 - [The Data Stack Show](https://datastackshow.com/) - A show where they talk to data engineers, analysts, and data scientists about their experience around building and maintaining data infrastructure, delivering data and data products, and driving better outcomes across their businesses with data.
 
-## Trivia
+### Books
+
+- [Snowflake Data Engineering](https://www.manning.com/books/snowflake-data-engineering) - A practical introduction to data engineering on the Snowflake cloud data platform.
+- [Best Data Science Books](https://www.appliedaicourse.com/blog/data-science-books/) - This blog offers a curated list of top data science books, categorized by topics and learning stages, to aid readers in building foundational knowledge and staying updated with industry trends.
+
+### Trivia
 * [MySql founder Monty's blog](http://monty-says.blogspot.com/2020/) 
 
-## Conferences
+### Conferences
 * [Data Council](https://www.datacouncil.ai/about) Data Council is the first technical conference that bridges the gap between data scientists, data engineers and data analysts.
 
 
